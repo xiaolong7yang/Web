@@ -1,0 +1,78 @@
+body{
+	margin: 0px;
+	background-image: url(../img/DP1.jpg);
+	background-repeat: no-repeat;
+	font-family: sans-serif;
+}
+
+body p{
+	background-color: gray;
+	padding: 24px;
+	margin: 0px;
+	text-decoration: none;
+	width: ;
+}
+/* 子类选择器 */
+body>p{
+	letter-spacing: 5px;
+	width: 500px;
+}
+
+
+div#persent{
+	width: 548px;
+	background-color: #000000;
+}
+
+#persent>p{
+	width: 500px;
+	background-color: antiquewhite;
+	text-indent: initial;
+	text-align: center;
+	word-spacing: 5px;
+	text-transform:capitalize;
+	padding: 24px;
+	font-variant: small-caps;
+	font-size: 30px;
+	
+}
+/* 如果用em定义编剧，那么他的实际大小和字体大小有关 */
+/* 1em = 16px（默认字体大小） */
+#persent>a{
+	height: 50px;
+	width: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+}
+
+#persent>a:link{
+	background-color: wheat
+}
+
+#persent>a:visited{
+	background-color:white;
+}
+
+#persent>a:hover{
+	background-color:red;
+}
+
+#persent>a:active {background-color:#000000;}
+
+#listBox>ul{
+	list-style-type:none;
+}
+
+table,th,td{
+	border: 1px solid white;
+	border-collapse: collapse;
+}
+
+table{
+	width: 50%;
+}
+
+th{
+	height: 200px;
+}
